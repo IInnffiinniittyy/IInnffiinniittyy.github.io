@@ -896,7 +896,7 @@ img {
 
 /*=============== Breakpoints ===============*/
 /* For small devices */
-@media screen and (max-width: 360px) {
+@media all and (min-width: 320px) and (max-width: 767px) {
     .nav__menu {
         padding: 1rem 1.5rem;
     }
@@ -937,11 +937,15 @@ img {
     .work__filters {
         column-gap: .25rem;
     }
+    .home__img {
+        width: 30vw;
+    }
 }
 
 /* For medium device */
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {*/
+    @media all and (min-width: 768px) and (max-width: 1024px){
     .nav__menu {
         width: 328px;
         left: 0;
@@ -997,10 +1001,14 @@ img {
         width: 360px;
         margin: 0 auto;
     }
+    .home__img {
+        /* width: 220px; */
+        width: 30vw;
+    }
 
 }
 
-@media screen and (min-width: 767px) {
+@media all and (min-width: 767px) and (max-width: 1024px) {
     .work__container {
         grid-template-columns: repeat(2, max-content);
     }
@@ -1009,11 +1017,15 @@ img {
         grid-template-columns: repeat(2, max-content);        
         justify-content: center;
     }
+    .home__img {
+        /* width: 220px; */
+        width: 25vw;
+    }
 }
 
 /* For large device */
 
-@media screen and (min-width: 992px) {
+@media all and (min-width: 1024px) {
     .container {
         margin: 0 auto;
     }
@@ -1036,7 +1048,8 @@ img {
     }
 
     .home__img {
-        width: 220px;
+        /* width: 220px; */
+        width: 25vw;
     }
 
     .home__social-link {
