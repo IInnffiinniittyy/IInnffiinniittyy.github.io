@@ -1,12 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@IInnffiinniittyy.github.io</title>
+    <style>
+    @media screen and (max-width : 600px){
+        .whatswidget-button-wrapper{top:750px!important;
+        }
+        .home__img{
+            width: 40vw!important;
+        }
+    }
+  
+    @media screen and (max-width : 600px){
+        .whatswidget-icon{height: 30px!important;
+            width: 30px !important;
+        }
+    }
+
+    @media screen and (max-width : 600px){
+        .whatswidget-button{height: 45px!important;
+            width: 45px !important;
+        }
+    }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/Ticon1.jpg" />
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./assets/css/index-style.css">
+
+    <!--the theme (the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
 </head>
 <body>
-    Hello World, Adding the HTML based portfolio here...
+
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+
+        <!-- Navbar -->
+        <nav class="nav container">
+
+            <!-- Logo -->
+            <a href="" class="nav__logo">Tanuj Pant</a>
+
+            <!-- Menu -->
+            <div class="nav__menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./assets/pdf/Tanuj-Pant-Resume.pdf" class="nav__link" target="_blank">
+                            <box-icon type='solid' name='registered'>CV</box-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--Dark Mode-->
+        <div>
+	<input type="checkbox" class="checkbox" id="chk" />
+	<label class="label" for="chk">
+		<div class="ball"></div>
+	</label>
+</div>
+            
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Tanuj Pant</h1>
+                    <h2 class="home__education">Backend Developer</h2>
+
+                    <div class="home__buttons">
+                        <a href="./assets/pdf/Tanuj-Pant-Resume.pdf" class="button button--ghost" target="_blank">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="./assets/img/Image.png" alt="" class="home__img" style="width: 30vw;">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/tanujpant6263/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/IInnffiinniittyy" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://iinnffiinniittyy.github.io/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="./assets/img/Image.png" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">1 Year of Learning in Automobile Sector</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">4+ Major Team Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">24/7 :)</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                       Hello! My name is Tanuj Pant and I enjoy creating things. I have completed my B.Tech. from GGSIPU, Delhi in 2020.
+                       At current, I am well versed with Java, Spring Boot, HTML5, CSS3, JavaScript, and SQL. I am very eager to Learn, Grow, Contribute, and use my skills to help bring creativity and innovation to the Organization.
+                       I love Playing Sports and Running when not Coding.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My abilities</span>
+            <h2 class="section__title">My Technical Skills</h2>
+
+            <div class="skills__container container grid">
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend</h3>
+
+                    <div class="skills__box">
+
+                        <div class="skills__group">
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">GitHub</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend</h3>
+
+                    <div class="skills__box">
+
+                        <div class="skills__group">
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Spring Boot</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Hibernate</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                </div>
+                            </div>
+
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">AWS</h3>
+                                </div>
+                            </div>
+                            <div class="skill__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Postman</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+        <!--=============== GitHub Stats. ===============-->
+        <!-- Prepare a container for your calendar. -->
+        
+    
+        <div class="calendar" style="width: 58.5vw;">
+            <!-- Loading stuff -->
+            <!-- Loading the data. -->
+        </div>
+
+        </section>
+
+        <!--=============== Learnings ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Learnings</span>
+            <h2 class="section__title">What I Learnt so far</h2>
+
+            <div class="services__container container grid">
+
+                <div class="services__card">
+                    <h3 class="services__title">Front-End <br> Development</h3>
+
+                    <span class="services__button">
+                        See more<i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Front-End Development</h3>
+                            <p class="services__modal-description">
+                                1000+ Hours of Learning HTML, CSS, and JavaScript with hands-on experience of building 3+ projects with highly disciplined and perseverant Team and 10+ Minor projects individually.
+                            </p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Back-End <br>Development</h3>
+
+                    <span class="services__button">
+                        See more<i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Back-End Development</h3>
+                            <p class="services__modal-description">
+                                Deliberatedly Learnt and practiced Java, MySQL along with framework Spring Boot with hands-on experience of building 2+ Backend projects.
+                            </p>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Soft<br> Skills</h3>
+
+                    <span class="services__button">
+                        See more<i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Communication Skills and Behavioral Techniques</h3>
+                            <p class="services__modal-description">
+                                Undergone 200+ Hours of Skillathon Training by eminent professional trainers with never-ending learnings.
+                            </p>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Project Work</h2>
+            <div class="work__container container grid">
+
+                <div class="work__card mix web">
+                    <img src="./assets/img/naukri1.png" class="work__img">
+
+                    <h3 class="work__title">Naukri.com : CLone</h3>
+                    <h5>Naukri.com is a famous job portal which <br>
+                        connect between job providers and <br> job Seekers.</h5>
+                     <br>
+                    <a href="https://reliable-dragon-ca66f2.netlify.app/" class="work__button" target="_blank">
+                        🔗 Deployed <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                    <a href="https://github.com/NandlalShah955/tropical-action-4372" class="work__button" target="_blank">
+                        <i class='bx bxl-github'></i>&nbsp; Code <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="./assets/img/dermstore.png" class="work__img">
+
+                    <h3 class="work__title">Dermstore : Clone</h3>
+                    <h5>Dermstore is a skin care and  <br> beauty e-commerce site in the United <br> States. 
+                        This collaborative project was <br> developed by
+                         five team members in 5 days.</h5>
+                    <br> <br>
+                    <a href="https://dermstore-project-clone.netlify.app/" class="work__button" target="_blank">
+                        🔗 Deployed <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                    <a href="https://github.com/TusharKadam7671/foregoing-tin-1857" class="work__button" target="_blank">
+                        <i class='bx bxl-github'></i>&nbsp; Code <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix movil">
+                    <img src="./assets/img/calculator.jpg" class="work__img">
+
+                    <h3 class="work__title">Basic Calculator</h3>
+                    <h5>Developed a basic calculator using <br> HTML5, CSS3 and JavaScript.</h5>
+                    <br> <br>
+                    <a href="https://relaxed-quokka-d9a8d0.netlify.app/" class="work__button" target="_blank">
+                        🔗 Deployed <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                    <a href="https://github.com/IInnffiinniittyy/Calculator" class="work__button" target="_blank">
+                        <i class='bx bxl-github'></i>&nbsp; Code <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                 
+            </div>
+
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section" id="testimonial">
+            <span class="section__subtitle">My Team-Mates say</span>
+            <h2 class="section__title">Testimonial</h2>
+
+            <div class="testimonial__container container grid swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./assets/img/T1.png" align="middle" class="testimonial__img">
+                        <h3 class="testimonial__name">Ujjwal Singh : Full-Stack Developer</h3>
+                        <p class="testimoial__description">
+                            Tanuj loves what he does! His discipline makes him credible. His sense of professionalism and ethics makes him effective individual in the room. It was admirable working with him on a project.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="./assets/img/T2.jpg" class="testimonial__img">
+                        <h3 class="testimonial__name">Satyam Yadav : Back-End Developer</h3>
+                        <p class="testimoial__description">
+                            Tanuj is a dedicated professional with a unique skill for helping individuals. Tanuj is wonderful to work with and conducts himself with commitment and discipline. I turn to Tanuj for his methodology in building a Project. It has been a great pleasure working with him.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__content" >
+                   
+                    <div class="contact__info">
+
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">E-mail</h3>
+                            <span class="content__card-data">Tanuj813@gmail.com</span>
+
+                            <a href="mailto:tanuj813@gmail.com" target="_blank" class="contact__button">
+                                Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="content__card-data">+91-704-254-6263</span>
+
+                            <a href="https://api.whatsapp.com/send/?phone=%2B917042546263&text&type=phone_number&app_absent=0"
+                                target="_blank" class="contact__button">
+                                Write me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card ">
+                            <i class='bx bxl-linkedin-square'></i>
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <span class="content__card-data">tanujpant6263</span>
+
+                            <a href="https://www.linkedin.com/in/tanujpant6263/" target="_blank" class="contact__button">
+                                Connect with me<i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">TANUJ PANT</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#testimonial" class="footer__link">Testimonial</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <!-- <a href="./assets/pdf/Tanuj-Pant-Resume.pdf" class="footer__social-link" target="_blank" >
+                    <i class='bx bxl-dribbble'></i>
+                </a> -->
+                <a href="https://github.com/IInnffiinniittyy" class="footer__social-link" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tanujpant6263/" class="footer__social-link" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+              Thanks for the lovely visit &#10084; </span>
+            <audio controls autoplay hidden>
+                    <source src="assets/audio/audio.mp3" type="audio/mpeg">
+                  </audio>
+        </div>
+    </footer>
 </body>
 </html>
+ <!-- GitHub Stats -->
+ <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+ <script>
+     GitHubCalendar(".calendar", "IInnffiinniittyy");
+     // enable responsive functionality
+     GitHubCalendar(".calendar", "IInnffiinniittyy", { responsive: true });
+ </script>
+
+ <!-- SCROLLREVEAL -->
+ <script src="./assets/js/scrollreveal.min.js"></script>
+
+ <!-- SWIPER JS -->
+ <script src="./assets/js/swiper-bundle.min.js"></script>
+
+ <!-- MIXITUP FILTER -->
+ <script src="./assets/js/mixitup.min.js"></script>
+
+ <!-- JavaScript -->
+ <script src="./assets/js/main.js"></script>
