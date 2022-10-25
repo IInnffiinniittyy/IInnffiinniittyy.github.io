@@ -895,8 +895,24 @@ img {
 }
 
 /*=============== Breakpoints ===============*/
-/* For small devices */
+
 @media all and (min-width: 320px) and (max-width: 767px) {
+    .home__img {
+        width: 300px;
+    }
+      }
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .home__img {
+        width: 300px;
+    }
+      }
+@media all and (min-width: 1024px) {
+    .home__img {
+        width: 300px;
+    }
+      }
+      /* For small devices */
+@media screen and (max-width: 360px) {
     .nav__menu {
         padding: 1rem 1.5rem;
     }
@@ -910,9 +926,9 @@ img {
         height: 253px;
     }
 
-    .home__img {
-        width: 130px;
-    }
+    /* .home__img {
+        width: 300px;
+    } */
 
     .about__info {
         grid-template-columns: repeat(2, 1fr);
@@ -937,15 +953,11 @@ img {
     .work__filters {
         column-gap: .25rem;
     }
-    .home__img {
-        width: 30vw;
-    }
 }
 
 /* For medium device */
 
-/* @media screen and (min-width: 576px) {*/
-    @media all and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 576px) {
     .nav__menu {
         width: 328px;
         left: 0;
@@ -1001,14 +1013,13 @@ img {
         width: 360px;
         margin: 0 auto;
     }
-    .home__img {
-        /* width: 220px; */
-        width: 30vw;
-    }
+    /* .home__img {
+        width: 300px;
+    } */
 
 }
 
-@media all and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) {
     .work__container {
         grid-template-columns: repeat(2, max-content);
     }
@@ -1017,15 +1028,14 @@ img {
         grid-template-columns: repeat(2, max-content);        
         justify-content: center;
     }
-    .home__img {
-        /* width: 220px; */
-        width: 25vw;
-    }
+    /* .home__img {
+        width: 300px;
+    } */
 }
 
 /* For large device */
 
-@media all and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     .container {
         margin: 0 auto;
     }
@@ -1047,10 +1057,9 @@ img {
         height: 400px;
     }
 
-    .home__img {
-        /* width: 220px; */
-        width: 25vw;
-    }
+    /* .home__img {
+        width: 300px;
+    } */
 
     .home__social-link {
         padding: .4rem;
