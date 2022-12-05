@@ -291,8 +291,7 @@ img {
     gap: 1.5rem;
 }
 
-.home__social,
-.home__scroll {
+.home__social {
     position: absolute;
 }
 
@@ -325,25 +324,6 @@ img {
     background-color: var(--first-color);
     transform: rotate(90deg)  translate(16px, 3px);
 }
-
-.home__scroll {
-    color: var(--first-color);
-    right: -1rem;
-    bottom: 4rem;
-    display: grid;
-    row-gap: 2.25rem;
-    justify-items: center;
-}
-
-.home__scroll-icon {
-    font-size: 1.25rem;
-}
-
-.home__scroll-name {
-    font-size: var(--smaller-font-size);
-    transform: rotate(-90deg);
-}
-
 /* Button */
 
 .button {
@@ -962,14 +942,6 @@ img {
     .home__social-link {
         padding: .4rem;
         font-size: 1.25rem;
-    }
-
-    .home__scroll::after {
-        transform: rotate(90deg) translate(16px, 0);
-    }
-
-    .home__scroll-icon {
-        font-size: 2rem;
     }
 
     .about__container {
