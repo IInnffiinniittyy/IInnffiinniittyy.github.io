@@ -430,10 +430,10 @@ img {
     width: 5vw;
 }
 
-.skill__data .bx-badge-check {
-    /* font-size: 10rem; */
-    /* color: var(--first-color); */
-}
+/* .skill__data .bx-badge-check {
+    font-size: 10rem; 
+    color: var(--first-color); 
+} */
 
 .skills__name {
     font-size: var(--normal-font-size);
