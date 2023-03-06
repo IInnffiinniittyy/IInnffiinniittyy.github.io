@@ -23,10 +23,10 @@ modalClose.forEach((mc) => {
 
 let button = document.getElementById("download");
 button.addEventListener("click", () => {
-  window.open("./assets/pdf/fw19_0461-Tanuj-Pant.pdf");
+  window.open("./assets/pdf/fw19_0461-Tanuj-Pant-Resume.pdf");
 });
 
 let button1 = document.getElementById("resume");
 button1.addEventListener("click", () => {
-  window.open("./assets/pdf/fw19_0461-Tanuj-Pant.pdf");
+  window.open("./assets/pdf/fw19_0461-Tanuj-Pant-Resume.pdf");
 });
