@@ -265,7 +265,8 @@ img {
 }
 
 .home__img {
-    width: 160px;
+    /* width: 200vw; */
+    height: ;
 }
 
 .home__handle {
